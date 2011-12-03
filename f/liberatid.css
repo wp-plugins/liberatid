@@ -1,0 +1,57 @@
+/* yuicompress openid.css -o openid.min.css
+ * @see http://developer.yahoo.com/yui/compressor/
+ */
+
+#openid_enabled_link, .openid_link, #openid_identifier, #commentform #openid_identifier {
+	background-image: url('openid.gif');
+	background-position: 3px 50%;
+	background-repeat: no-repeat; 
+	padding-left: 21px !important; 
+}
+
+.commentWithLiberatID {
+	/*background-image: url('LiberatID60x24.png');
+	background-position: 3px 50%;
+	background-repeat: no-repeat;
+	padding-left: 21px !important;*/ 
+        position: relative;
+        top:5px;
+	width: 120px;
+	height: 32px;
+}
+
+.liberatid_comment_icon {
+	background-image: url('IconOnly20.png');
+	background-repeat: no-repeat; 
+	padding-left: 21px !important; 
+        padding-bottom: 45px;
+        padding-top: 3px;
+}
+
+.openid_loading {
+	background: url('ajax-loader.gif') right center no-repeat;
+}
+
+body.login #openid_identifier {
+	width: 92%;
+	font-size: 20px;
+	background-color: #FFF;
+	border: 1px solid #ccc;
+	padding: 3px 3px 3px 18px;
+	margin-right: 6px;
+}
+
+#openid_comment {
+	margin: 0.8em 1em;
+	display:block;
+}
+#openid_comment input {
+	width: auto;
+}
+
+/* fix link color on wp-login.php */
+body.login form#loginform a.legacy, 
+body.login form#registerform a.legacy {
+	color: #FFF;
+}
+
