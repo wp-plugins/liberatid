@@ -278,11 +278,11 @@ function liberatid_comment_form() {
 ?>
             <span id="liberatid_comment"><br />
                 <label>
-                    <?php _e('Authenticate this comment using ', 'liberatid'); ?>
+                    <?php _e('Comment using ', 'liberatid'); ?>
                     <?php if (get_option('liberatid_enable_other_openids')) { ?>
-                        <input type="radio" name="login_with_liberatid" value="openID" style="width:25px;" /><span class="liberatid_link">OpenID</span>
+                        <input type="radio" name="login_with_liberatid" value="openID" style="width:20px;margin-left:12px;" /><span class="liberatid_link">OpenID</span>
                     <?php } ?>
-                    <input type="radio" name="login_with_liberatid" value="liberatID" style="width:25px;" /><span class="commentWithLiberatID"><img src="<?php echo plugins_url('f/LiberatID60x24.png', __FILE__); ?>"</span>
+                    <input type="radio" name="login_with_liberatid" value="liberatID" style="width:20px;margin-left:12px;" /><span class="commentWithLiberatID"><img src="<?php echo plugins_url('f/LiberatID60x24.png', __FILE__); ?>"</span>
                 </label>
             </span>
             <script type="text/javascript">jQuery(function(){ add_liberatid_to_comment_form('<?php echo site_url('index.php') ?>', '<?php echo wp_create_nonce('liberatid_ajax') ?>') })</script>
