@@ -162,7 +162,7 @@ function liberatid_wp_login_form() {
     </script>';
 
     echo '<input type="hidden" name="isLiberatID" value="false" />';
-    echo '<p class="submit" id="liberatIDButton"><img style="background-image: none;background-color:#EEE;cursor:pointer;" src="/wp-content/plugins/liberatid/f/LoginWithLiberatID36.png" class="button-primary" onclick="javascript:liberatIDSubmit();" /><br /><br /></p>';
+    echo '<p class="submit" id="liberatIDButton"><img style="background-image: none;background-color:#EEE;cursor:pointer;" src="' .plugins_url( 'f/LoginWithLiberatID36.png' , __FILE__ ). '" class="button-primary" onclick="javascript:liberatIDSubmit();" /><br /><br /></p>';
 
             echo '
             <script type="text/javascript">
@@ -221,7 +221,7 @@ function liberatid_wp_register_form() {
 
 
     echo '<input type="hidden" name="isLiberatID" value="false" />';
-    echo '<p class="submit" id="liberatIDButton"><img style="background-image: none;background-color:#EEE;cursor:pointer" src="/wp-content/plugins/liberatid/f/RegisterWithLiberatID36.png" class="button-primary" onclick="javascript:liberatIDSubmit();" /><br /><br /></p>';
+    echo '<p class="submit" id="liberatIDButton"><img style="background-image: none;background-color:#EEE;cursor:pointer" src="' .plugins_url( 'f/RegisterWithLiberatID36.png' , __FILE__ ). '" class="button-primary" onclick="javascript:liberatIDSubmit();" /><br /><br /></p>';
     
     if ( ! get_option('liberatid_required_for_registration')) {
 

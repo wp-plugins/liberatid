@@ -151,7 +151,7 @@ function liberatid_options_page() {
 	screen_icon('liberatid');
 	?>
 	<style type="text/css">
-		#icon-liberatid { background-image: url("<?php echo plugins_url('liberatid/f/IconOnly36.png'); ?>"); background-repeat:no-repeat; height:36px; }
+		#icon-liberatid { background-image: url("<?php echo plugins_url('f/IconOnly36.png', __FILE__); ?>"); background-repeat:no-repeat; height:36px; }
 	</style>
 
 	<div class="wrap">
@@ -308,7 +308,7 @@ function liberatid_profile_panel() {
 	screen_icon('liberatid');
 	?>
 	<style type="text/css">
-		#icon-liberatid { background-image: url("<?php echo plugins_url('liberatid/f/IconOnly36.png'); ?>");  background-repeat:no-repeat; height:36px; }
+		#icon-liberatid { background-image: url("<?php echo plugins_url('f/IconOnly36.png', __FILE__); ?>");  background-repeat:no-repeat; height:36px; }
 	</style>
 
 	<div class="wrap">
@@ -448,7 +448,7 @@ function liberatid_manage_trusted_sites() {
 	screen_icon('liberatid');
 	?>
 	<style type="text/css">
-		#icon-liberatid { background-image: url("<?php echo plugins_url('liberatid/f/IconOnly36.png'); ?>");  background-repeat:no-repeat; height:36px; }
+		#icon-liberatid { background-image: url("<?php echo plugins_url('f/IconOnly36.png', __FILE__); ?>");  background-repeat:no-repeat; height:36px; }
 	</style>
 
 	<div class="wrap">
