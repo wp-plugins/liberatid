@@ -101,6 +101,10 @@ Also, you can send an email to support@liberatid.com.
 = version 1.0.0 (Dec 2, 2011) =
  - first release
 
+= version 1.0.1 (April 3, 2012) =
+ - Made sure that the image URLs are relative and not absolute
+ - Changed the styles on the input and images a little bit
+
 
 Full SVN logs are available at <http://dev.wp-plugins.org/log/liberatid/>.
 
